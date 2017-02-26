@@ -1,17 +1,9 @@
-//front-end
-$(document).ready(function(){
-    $("#blanks form").submit(function(event){
-        var email= $("input#email").val();
-        $(".input1").text(email);
-        $("#showing").show();
-        event.preventDefault();
-    });
-});
-function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
 }
-
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+Try it Yourself »
