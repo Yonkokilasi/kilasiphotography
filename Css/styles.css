@@ -26,3 +26,26 @@ ul.topnav li a:hover {background-color: #555;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
+img {
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom : solid white 5px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+#header{
+    background-image: url(https://yonkokilasi.files.wordpress.com/2016/06/6tag_120616-165944.jpg);
+    height: 500px;
+    width:1200px;
+    padding: 10px;
+    margin: 100px;
+    font-size: 30px;
+}
+
+.head{
+    font-size: 30px;
+    text-align: center;
+}
