@@ -39,7 +39,7 @@ body{
 
     font-family: 'Amiko', sans-serif;
 
-font-family: 'Raleway', sans-serif;
+
 }
 button{
     font-family: 'Vollkorn', serif;
@@ -134,4 +134,9 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+a:hover{
+    color: white;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
 }
