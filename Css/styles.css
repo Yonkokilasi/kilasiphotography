@@ -1,45 +1,10 @@
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 2px;
-    overflow: hidden;
-    background-color: #F0E68C;
-    position: relative;
-}
+
 
 #page2{
   display: none;
 }
-/* Float the list items side by side */
-
-ul.topnav li {
-    float: left;
-}
 
 
-/* Style the links inside the list items */
-
-ul.topnav li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-    font-family: 'Libre Baskerville', serif;
-}
-
-
-/* Change background color of links on hover */
-
-ul.topnav li a:hover {
-    background-color: BLACK;
-}
-
-ul.topnav li.icon {
-    display: none;
-}
 
 body {
     color: none;;
@@ -176,7 +141,7 @@ h1 {
 .text {
     white-space: nowrap;
     color: white;
-    font-size: 20px;
+    font-size: 40px;
     position: absolute;
     font-family: 'Vollkorn', serif;
     overflow: hidden;
@@ -190,4 +155,21 @@ a:hover {
     color: white;
     font-style: normal;
     font-family: 'Raleway', sans-serif;
+}
+#first{
+    background-image: url(http://i4.imgbus.com/doimg/7Yo4nk6o7db4d4.jpg);
+    /*height:200px;*/
+    display: block;
+    width:40vw;
+    height:70vh;
+
+}
+#second{
+    background-image: url(http://i1.imgbus.com/doimg/bYonfkocb3f258.jpg);
+    /*height:200px;*/
+    display: block;
+    background-size: contain;
+    width:40vw;
+    /*height:70vh;
+
 }
