@@ -174,5 +174,7 @@ background-image: url(http://i1.imgbus.com/doimg/bYonfkocb3f258.jpg);
 width:60vw;
 height:100vh;
 background-size: cover;
-
+}
+button{
+    color:green;
 }
