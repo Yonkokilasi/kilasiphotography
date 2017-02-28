@@ -3,17 +3,25 @@ ul.topnav {
     margin: 0;
     padding: 2px;
     overflow: hidden;
-    background-color: #333;
-    position:relative;
+    background-color: #F0E68C;
+    position: relative;
 }
 
+#page2{
+  display: none;
+}
 /* Float the list items side by side */
-ul.topnav li {float: left;}
+
+ul.topnav li {
+    float: left;
+}
+
 
 /* Style the links inside the list items */
+
 ul.topnav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,72 +30,113 @@ ul.topnav li a {
     font-family: 'Libre Baskerville', serif;
 }
 
+
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
-/*img {
-    border-top: solid white 5px;
-    border-left: solid white 5px;
-    border-right: solid white 5px;
-    border-bottom : solid white 5px;
-}*/
-body{
-    background-color: black;
-    color: white;
-
-    font-family: 'Amiko', sans-serif;
-
-
+ul.topnav li a:hover {
+    background-color: BLACK;
 }
-button{
+
+ul.topnav li.icon {
+    display: none;
+}
+
+body {
+    color: none;;
+    /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/b8/73/49/b8734954b9309f895afadba7c2466a60.gif");*/
+    font-family: 'Amiko', sans-serif;
+}
+
+button {
     font-family: 'Vollkorn', serif;
 }
-#header{
-    background-image: url(https://yonkokilasi.files.wordpress.com/2016/06/6tag_120616-165944.jpg);
-    height: 500px;
-    width:1200px;
+
+#header {
+    /*background-image: url(https://yonkokilasi.files.wordpress.com/2016/06/6tag_120616-165944.jpg);*/
+
     padding: 10px;
     margin: 100px;
     font-size: 30px;
     font-family: 'Mr Dafoe', cursive;
 }
+
 #cam {
     width: 100px;
     height: 100px;
     background-color: none;
     position: fixed;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-
 }
+
 
 /* Safari 4.0 - 8.0 */
+
 @-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
 }
+
 
 /* Standard syntax */
+
 @keyframes example {
-    0%   {background-color:none; left:0px; top:0px;}
-    25%  {background-color:none; left:1300px; top:0px;}
-    50%  {background-color:none; top:1000px;}
-    75%  {background-color:none; top:20px; }
-    100% {background-color:none;  left:1300px;}
+    0% {
+        background-color: none;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: none;
+        left: 1300px;
+        top: 0px;
+    }
+    50% {
+        background-color: none;
+        top: 1000px;
+    }
+    75% {
+        background-color: none;
+        top: 20px;
+    }
+    100% {
+        background-color: none;
+        left: 1300px;
+    }
 }
 
-
-.head{
+.head {
     font-size: 30px;
     text-align: center;
 }
@@ -95,47 +144,49 @@ button{
 h1 {
     font-family: Amiko;
 }
-.container {
-  position: relative;
-  width: 50%;
+
+.stuff {
+    position: relative;
+    width: 50%;
 }
 
 .image {
-  display: block;
-  /*width: 100%;
-  height: auto;*/
+    display: block;
+    width:34vw;
+    height:70vh;
 }
 
 .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 100%;
-  right: 0;
-  background-color: none;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: 1.5s ease;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: none;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1.5s ease;
 }
 
-.container:hover .overlay {
-  width: 200px;
-  left: 2px;
+.stuff:hover .overlay {
+    width: 200px;
+    left: 2px;
 }
 
 .text {
-  white-space: nowrap;
-  color: white;
-  font-size: 20px;
-  position: absolute;
- font-family: 'Vollkorn', serif;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Vollkorn', serif;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
-a:hover{
+
+a:hover {
     color: white;
     font-style: normal;
     font-family: 'Raleway', sans-serif;
