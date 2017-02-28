@@ -141,7 +141,7 @@ h1 {
 .text {
     white-space: nowrap;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     font-family: 'Vollkorn', serif;
     overflow: hidden;
@@ -160,16 +160,19 @@ a:hover {
     background-image: url(http://i4.imgbus.com/doimg/7Yo4nk6o7db4d4.jpg);
     /*height:200px;*/
     display: block;
-    width:40vw;
-    height:70vh;
+    width:50vw;
+    height:100vh;
+    background-size: cover;
+    border-right: solid grey 9px;
 
 }
 #second{
-    background-image: url(http://i1.imgbus.com/doimg/bYonfkocb3f258.jpg);
-    /*height:200px;*/
-    display: block;
-    background-size: contain;
-    width:40vw;
-    /*height:70vh;
+margin-left: 90px;;
+background-image: url(http://i1.imgbus.com/doimg/bYonfkocb3f258.jpg);
+/*height:200px;*/
+/*display: block;*/
+width:60vw;
+height:100vh;
+background-size: cover;
 
 }
