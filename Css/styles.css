@@ -18,7 +18,6 @@ button {
 
 #header {
     /*background-image: url(https://yonkokilasi.files.wordpress.com/2016/06/6tag_120616-165944.jpg);*/
-
     padding: 10px;
     margin: 100px;
     font-size: 30px;
@@ -159,12 +158,16 @@ a:hover {
 #first{
     background-image: url(http://i4.imgbus.com/doimg/7Yo4nk6o7db4d4.jpg);
     /*height:200px;*/
-    display: block;
+    /*display: block;*/
     width:50vw;
     height:100vh;
     background-size: cover;
     border-right: solid grey 9px;
-
+    /*background:#676470;*/
+    opacity: 0.5
+}
+#first:hover{
+      opacity:1;
 }
 #second{
 margin-left: 90px;;
@@ -174,6 +177,11 @@ background-image: url(http://i1.imgbus.com/doimg/bYonfkocb3f258.jpg);
 width:60vw;
 height:100vh;
 background-size: cover;
+
+}
+
+#third {
+    background-image: url(http://i3.imgbus.com/doimg/cY1o0nak1o6c90.jpg);
 }
 button{
     color:green;

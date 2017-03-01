@@ -1,3 +1,3 @@
-$(document).ready(function(){
-alert("This site is under construction");
-});
+// $(document).ready(function(){
+// alert("This site is under construction");
+// });
