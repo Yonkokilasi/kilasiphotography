@@ -1,0 +1,188 @@
+
+
+#page2{
+  display: none;
+}
+
+
+
+body {
+    color: none;;
+    /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/b8/73/49/b8734954b9309f895afadba7c2466a60.gif");*/
+    font-family: 'Amiko', sans-serif;
+}
+
+button {
+    font-family: 'Vollkorn', serif;
+}
+
+#header {
+    /*background-image: url(https://yonkokilasi.files.wordpress.com/2016/06/6tag_120616-165944.jpg);*/
+    padding: 10px;
+    margin: 100px;
+    font-size: 30px;
+    font-family: 'Mr Dafoe', cursive;
+}
+
+#cam {
+    width: 100px;
+    height: 100px;
+    background-color: none;
+    position: fixed;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    0% {
+        background-color: none;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: none;
+        left: 1300px;
+        top: 0px;
+    }
+    50% {
+        background-color: none;
+        top: 1000px;
+    }
+    75% {
+        background-color: none;
+        top: 20px;
+    }
+    100% {
+        background-color: none;
+        left: 1300px;
+    }
+}
+
+.head {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Amiko;
+}
+
+.stuff {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width:34vw;
+    height:70vh;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: none;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1.5s ease;
+}
+
+.stuff:hover .overlay {
+    width: 200px;
+    left: 2px;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    font-family: 'Vollkorn', serif;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+a:hover {
+    color: white;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+}
+#first{
+    background-image: url(http://i4.imgbus.com/doimg/7Yo4nk6o7db4d4.jpg);
+    /*height:200px;*/
+    /*display: block;*/
+    width:50vw;
+    height:100vh;
+    background-size: cover;
+    border-right: solid grey 9px;
+    /*background:#676470;*/
+    opacity: 0.5
+}
+#first:hover{
+      opacity:1;
+}
+#second{
+margin-left: 90px;;
+background-image: url(http://i1.imgbus.com/doimg/bYonfkocb3f258.jpg);
+/*height:200px;*/
+/*display: block;*/
+width:60vw;
+height:100vh;
+background-size: cover;
+
+}
+
+#third {
+    background-image: url(http://i3.imgbus.com/doimg/cY1o0nak1o6c90.jpg);
+}
+button{
+    color:green;
+}
