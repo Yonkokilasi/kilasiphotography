@@ -18,7 +18,7 @@ html {
 
 .navbar-header {
     height: 50px;
-    width: 10px;
+    width: 60px;
 }
 
 
@@ -44,9 +44,7 @@ html {
 
 #port {
     margin-top: 70px;
-    background-image: url(../images/portraits/3.jpg);
-    /*height:200px;*/
-    /*display: block;*/
+    background-image: url(../images/portraits/IMG_2433.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -90,4 +88,7 @@ html {
 
 #port:hover {
     opacity: 0.8;
+}
+a {
+    color: white;
 }
