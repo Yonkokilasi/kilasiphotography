@@ -1,7 +1,10 @@
 html {
     height: 100%;
 }
+
+
 /*navbar styling*/
+
 .navbar-default {
     background-color: rgba(0, 0, 0, 0.1);
     border-color: #E7E7E7;
@@ -13,10 +16,11 @@ html {
     transform: translateY(-35px);
 }
 
-.navbar-header  {
+.navbar-header {
     height: 100px;
     width: 120px;
 }
+
 
 /* Link */
 
@@ -34,4 +38,56 @@ html {
 .navbar-default .navbar-nav > .active > a:focus {
     color: #000000;
 }
+
+
 /*end of navbar*/
+
+#port {
+    margin-top: 120px;
+    background-image: url(../images/portraits/3.jpg);
+    /*height:200px;*/
+    /*display: block;*/
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.image {
+    display: block;
+    width: 100vw;
+    height: 70vh;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: none;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1.5s ease;
+}
+
+.landing:hover .overlay {
+    width: 1400px;
+    left: 2px;
+}
+
+.text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Vollkorn', serif;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+
+#port:hover {
+    opacity: 0.8;
+}
