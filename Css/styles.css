@@ -48,6 +48,14 @@ html {
     width: 100vw;
     height: 100vh;
     background-size: cover;
+    margin-bottom: 20px solid blue;
+}
+#long {
+    margin-top: 5px;
+    background-image: url(../images/long-exposure/7.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
 }
 
 .image {
@@ -73,6 +81,7 @@ html {
     left: 2px;
 }
 
+/*
 .text {
     color: white;
     font-size: 50px;
@@ -82,10 +91,13 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    
+    -ms-transform: translate(-50%, -50%);  
 }
+*/
 
+#long:hover {
+    opacity: 0.8;
+}
 #port:hover {
     opacity: 0.8;
 }
