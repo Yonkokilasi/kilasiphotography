@@ -57,6 +57,28 @@ html {
     height: 100vh;
     background-size: cover;
 }
+#silhouettes {
+    margin-top: 5px;
+    background-image: url(../images/long-exposure/7.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+#Sunsets {
+    margin-top: 5px;
+    background-image: url(../images/long-exposure/7.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#city {
+    margin-top: 5px;
+    background-image: url(../images/long-exposure/7.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
 
 .image {
     display: block;
@@ -81,7 +103,6 @@ html {
     left: 2px;
 }
 
-/*
 .text {
     color: white;
     font-size: 50px;
@@ -93,7 +114,6 @@ html {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);  
 }
-*/
 
 #long:hover {
     opacity: 0.8;
