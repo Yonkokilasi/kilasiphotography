@@ -23,14 +23,13 @@ html {
 
 
 /* Link */
-
 .navbar-default .navbar-nav > li > a {
     /*color: #FFFFFF;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    /*color: #000000;*/
+    color: #000000;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -50,6 +49,7 @@ html {
     background-size: cover;
     margin-bottom: 20px solid blue;
 }
+
 #long {
     margin-top: 5px;
     background-image: url(../images/long-exposure/7.jpg);
@@ -57,6 +57,7 @@ html {
     height: 100vh;
     background-size: cover;
 }
+
 #silhouettes {
     margin-top: 5px;
     background-image: url(../images/silhouettes/19.jpg);
@@ -86,6 +87,7 @@ html {
     height: 70vh;
 }
 
+/*
 .overlay {
     position: absolute;
     bottom: 0;
@@ -98,11 +100,6 @@ html {
     transition: 1.5s ease;
 }
 
-.landing:hover .overlay {
-    width: 1400px;
-    left: 2px;
-}
-
 .text {
     color: white;
     font-size: 50px;
@@ -110,17 +107,92 @@ html {
     font-family: 'Vollkorn', serif;
     overflow: hidden;
     top: 50%;
-    left: 50%;
+    left: 100%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); 
+
 }
 
+.landing:hover .overlay {
+    width: 100%;    
+    left: 2px;
+}
+*/
+
+
 #long:hover {
-    opacity: 0.8;
-}
+        opacity: 0.8;
+    }
+
 #port:hover {
-    opacity: 0.8;
-}
+        opacity: 0.8;
+    }
 a {
     color: white;
 }
+
+
+
+/*_______________________________________________*/
+/*Wanjugu's Edits'*/
+/*_______________________________________________*/
+
+.landing {
+    position: relative;    
+}
+
+.landing>div {
+    position: relative;    
+}
+
+.overlay {
+    position: relative !important;
+    width: 0%;
+    height: 100vh;
+    transition: 1.5s ease;
+}
+
+.text {
+    color: white;
+    font-size: 50px;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Vollkorn', serif;
+    overflow: hidden;
+/*
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+*/
+
+/* Centering The Text*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+#port:hover .overlay, #long:hover .overlay, #silhouettes:hover .overlay, #Sunsets:hover .overlay, #city:hover .overlay {
+     width: 100%;
+    height: 100vh;
+/*    visibility: visible;*/
+    
+}
+#port:hover .text, #long:hover .text, #silhouettes:hover .text, #Sunsets:hover .text, #city:hover .text {
+     width: 100%;
+    height: 100vh;
+/*    visibility: visible;*/
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
