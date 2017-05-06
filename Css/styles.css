@@ -41,6 +41,7 @@ html {
 
 /*end of navbar*/
 
+/*code below caters for the portraits (code is on order of appearance) on the landing page*/
 #port {
     margin-top: 70px;
     background-image: url(../images/portraits/IMG_2433.jpg);
@@ -50,6 +51,7 @@ html {
     margin-bottom: 20px solid blue;
 }
 
+/*code below caters for the long exposure on the landing page*/
 #long {
     margin-top: 5px;
     background-image: url(../images/long-exposure/7.jpg);
@@ -58,10 +60,10 @@ html {
     background-size: cover;
      background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
 }
 
+ /*code below caters for the silhouettes on the landing page*/
 #silhouettes {
     margin-top: 5px;
     background-image: url(../images/silhouettes/19.jpg);
@@ -72,6 +74,9 @@ html {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/*code below caters for the Sunsets
+ on the landing page*/
 #Sunsets {
     margin-top: 5px;
     background-image: url(../images/Sunset/22.jpg);
@@ -83,13 +88,15 @@ html {
     background-repeat: no-repeat;
 }
 
+/*code below caters for the city (last image)
+ on the landing page*/
 #city {
     margin-top: 5px;
     background-image: url(../images/city/IMG_2556.jpg);
     width: 100vw;
     height: 100vh;
-   background-size: cover;
-     background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
