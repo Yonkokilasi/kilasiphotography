@@ -56,6 +56,10 @@ html {
     width: 100vw;
     height: 100vh;
     background-size: cover;
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 #silhouettes {
@@ -63,7 +67,10 @@ html {
     background-image: url(../images/silhouettes/19.jpg);
     width: 100vw;
     height: 100vh;
-    background-size: cover;
+   background-size: cover;
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #Sunsets {
     margin-top: 5px;
@@ -71,6 +78,9 @@ html {
     width: 100vw;
     height: 100vh;
     background-size: cover;
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #city {
@@ -78,7 +88,10 @@ html {
     background-image: url(../images/city/IMG_2556.jpg);
     width: 100vw;
     height: 100vh;
-    background-size: cover;
+   background-size: cover;
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .image {
@@ -120,13 +133,7 @@ html {
 */
 
 
-#long:hover {
-        opacity: 0.8;
-    }
 
-#port:hover {
-        opacity: 0.8;
-    }
 a {
     color: white;
 }
@@ -185,7 +192,11 @@ a {
     
 }
 
-
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 
 
 
