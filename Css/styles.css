@@ -60,7 +60,7 @@ html {
     background-size: cover;
      background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 }
 
  /*code below caters for the silhouettes on the landing page*/
@@ -101,10 +101,13 @@ html {
     background-repeat: no-repeat;
 }
 
-.image {
+/*.image {
     display: block;
     width: 100vw;
     height: 80vh;
+}*/
+.img-responsive {
+    padding: 0;
 }
 
 /*
@@ -129,12 +132,12 @@ html {
     top: 50%;
     left: 100%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); 
+    -ms-transform: translate(-50%, -50%);
 
 }
 
 .landing:hover .overlay {
-    width: 100%;    
+    width: 100%;
     left: 2px;
 }
 */
@@ -152,11 +155,11 @@ a {
 /*_______________________________________________*/
 
 .landing {
-    position: relative;    
+    position: relative;
 }
 
 .landing>div {
-    position: relative;    
+    position: relative;
 }
 
 .overlay {
@@ -175,7 +178,7 @@ a {
     overflow: hidden;
 /*
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); 
+    -ms-transform: translate(-50%, -50%);
 */
 
 /* Centering The Text*/
@@ -190,13 +193,13 @@ a {
      width: 100%;
     height: 100vh;
 /*    visibility: visible;*/
-    
+
 }
 #port:hover .text, #long:hover .text, #silhouettes:hover .text, #Sunsets:hover .text, #city:hover .text {
      width: 100%;
     height: 100vh;
 /*    visibility: visible;*/
-    
+
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -204,13 +207,3 @@ a {
         background-attachment: scroll;
     }
 }
-
-
-
-
-
-
-
-
-
-
