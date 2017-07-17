@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -6,12 +5,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index,follow" />
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WPVV9PH');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WPVV9PH');
+    </script>
     <!-- End Google Tag Manager -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -21,21 +32,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="google-site-verification" content="6v3fHJEWyIpA_YGCMk_6z-sVgZHLsahTcN3eg1F8n2k" />
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-99081870-1', 'auto');
-  ga('send', 'pageview');
-
+        ga('create', 'UA-99081870-1', 'auto');
+        ga('send', 'pageview');
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js">
     </script>
     <style>
-    .galleria{ max-width: 100vw; height: 400px; background: #FFFF }
-</style>
+        .galleria {
+            max-width: 100vw;
+            height: 400px;
+            background: #FFFF
+        }
+    </style>
 </head>
+
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
@@ -48,6 +70,98 @@
 
     </form>
 
+
+
+    <div id="portraitpge" class="container-fluid">
+        <!-- <div class="col-md-3 img-responsive ">
+            <img src="images/portraits/bumo.jpg" style="width:100%">
+                </div> -->
+
+        <div class="grid ">
+            <div class="grid-sizer"></div>
+            <div class="grid-item">
+                <img src="images/portraits/3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/20.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/13.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/bumo.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/Leo.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/21.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/claps.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/toys.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/stair.jpg">
+            </div>
+            <!-- <div class="grid-item">
+                <img src="images/portraits/bird pose.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/bird.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/6.jpg">
+            </div> -->
+            <div class="grid-item">
+                <img src="images/portraits/classic.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/farasi1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/farasifloat.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/float3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/farasifloat2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/fly.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/fly2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/grave.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/geena.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/stonespose.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/23.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/ruth1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/ruth2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/portraits/ruthbnw.jpg">
+            </div>
+        </div>
+
+
+    </div>
+    </div>
     <div class="galleria">
         <img src="images/portraits/21.jpg" alt="">
         <img src="images/portraits/20.jpg" alt="">
@@ -57,67 +171,21 @@
         <img src="images/portraits/13.jpg" alt="">
         <img src="images/portraits/24.jpg" alt="">
         <img src="images/portraits/29.jpg" alt="">
-        <img src="images/portraits/bird pose.jpg" alt="">
+        <img src="images/portraits/bumo.jpg" alt="">
+        <img src="images/portraits/earthmoney.jpg" alt="">
+        <img src="images/portraits/float.jpg" alt="">
+        <img src="images/portraits/grave.jpg" alt="">
+        <img src="images/portraits/two.jpg" alt="">
     </div>
     <script>
-	(function() {
+        (function() {
             Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
             Galleria.run('.galleria');
         }());
-        </script>
-
-    <div id="portraitpge" class="container-fluid">
-       <!-- <div class="col-md-3 img-responsive ">
-            <img src="images/portraits/bumo.jpg" style="width:100%">
-                </div> -->
-        </div>
-         <div class="col-md-3 img-responsive ">
-            <img class="" src="images/portraits/20.jpg" style="width:100%" "height:3000">
-
-                </div>
-        </div>
-         <div class="col-md-3 img-responsive ">
-            <img class="img-responsive" src="images/portraits/3.jpg" style="width:100%">
-
-                </div>
-        </div>
-        <div class="col-md-3 img-responsive ">
-            <img class="img-responsive" src="images/portraits/13.jpg" style="width:100%">
-
-                </div>
-        </div>
-       <div class="col-md-3 img-responsive">
-            <img  src="images/portraits/claps.jpg" style="width:100%">
-
-                </div>
-        </div>
-        <div class="col-md-4">
-            <img  src="images/portraits/23.jpg" style="width:100%">
-
-                </div>
-        </div>
-        <div class="col-md-4">
-            <img  src="images/portraits/bumo.jpg" style="width:100%">
-
-                </div>
-        </div>
-        <div class="col-md-4">
-            <img  src="images/portraits/bird.jpg" style="width:100%">
-
-                </div>
-        </div>
-        <div class="col-md-4">
-            <img src="images/portraits/12.jpg" style="width:100%">
-
-                </div>
-        </div>
-        <div class="col-md-4">
-            <img  src="images/portraits/fly.jpg" style="width:100%">
-
-                </div>
-        </div>
+    </script>
 
     </div>
 
 </body>
+
 </html>

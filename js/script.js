@@ -16,4 +16,22 @@ $('.grid').masonry({
   // use element for option
   columnWidth: '.grid-sizer',
   percentPosition: true
-})
+});
+// init masonry
+var $grid = $('.grid').masonry({
+  // options..
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});
+// init Masonry
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});
