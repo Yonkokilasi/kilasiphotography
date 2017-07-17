@@ -1,4 +1,3 @@
-
 /*navbar styling*/
 
 .navbar-default {
@@ -7,85 +6,100 @@
     padding: 10px;
 }
 
-.navbar-default .navbar-brand {
-    padding-top: 8px;
-    transform: translateY(-35px);
-}
 
-.navbar-header {
-    height: 50px;
-    width: 60px;
+/*.navbar-default .navbar-brand {
+    padding-top: 8px;
+
+    transform: translateY(-35px);
+}*/
+
+
+/*.navbar-header {
+
+    padding-left: 8px;
+}*/
+
+.row {
+    margin: 0;
 }
 
 
 /* Link */
-.navbar-default .navbar-nav > li > a {
+
+.navbar-default .navbar-nav>li>a {
     /*color: #FFFFFF;*/
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #000000;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #000000;
 }
 
 
 /*end of navbar*/
 
+
 /*code below caters for the portraits (code is on order of appearance) on the landing page*/
+
 #port {
     margin-top: 70px;
-    background-image: url(../images/portraits/IMG_2433.jpg);
+    background-image: url(../images/portraits/classic.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
     margin-bottom: 20px solid blue;
 }
 
+
 /*code below caters for the long exposure on the landing page*/
+
 #long {
     margin-top: 5px;
     background-image: url(../images/long-exposure/7.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
-     background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
 
- /*code below caters for the silhouettes on the landing page*/
+
+/*code below caters for the silhouettes on the landing page*/
+
 #silhouettes {
     margin-top: 5px;
     background-image: url(../images/silhouettes/19.jpg);
     width: 100vw;
     height: 100vh;
-   background-size: cover;
-     background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+
 /*code below caters for the Sunsets
  on the landing page*/
+
 #Sunsets {
     margin-top: 5px;
     background-image: url(../images/Sunset/22.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
-     background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+
 /*code below caters for the city (last image)
  on the landing page*/
+
 #city {
     margin-top: 5px;
     background-image: url(../images/city/IMG_2556.jpg);
@@ -97,14 +111,17 @@
     background-repeat: no-repeat;
 }
 
+
 /*.image {
     display: block;
     width: 100vw;
     height: 80vh;
 }*/
+
 .img-responsive {
     padding: 0;
 }
+
 
 /*
 .overlay {
@@ -138,16 +155,17 @@
 }
 */
 
-
-
 a {
     color: white;
 }
 
 
-
 /*_______________________________________________*/
+
+
 /*Wanjugu's Edits'*/
+
+
 /*_______________________________________________*/
 
 .landing {
@@ -172,76 +190,93 @@ a {
     height: 100vh;
     font-family: 'Vollkorn', serif;
     overflow: hidden;
-/*
+    /*
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 */
-
-/* Centering The Text*/
+    /* Centering The Text*/
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
 }
 
-
 #port:hover .overlay, #long:hover .overlay, #silhouettes:hover .overlay, #Sunsets:hover .overlay, #city:hover .overlay {
-     width: 100%;
+    width: 100%;
     height: 100vh;
-/*    visibility: visible;*/
-
+    /*    visibility: visible;*/
 }
+
 #port:hover .text, #long:hover .text, #silhouettes:hover .text, #Sunsets:hover .text, #city:hover .text {
-     width: 100%;
+    width: 100%;
     height: 100vh;
-/*    visibility: visible;*/
-
+    /*    visibility: visible;*/
 }
+
+
 /*masonry styling for grid*/
 
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
+
 
 /* force scrollbar */
-html { overflow-y: scroll; }
 
-body { font-family: sans-serif; }
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: sans-serif;
+}
+
 
 /* ---- grid ---- */
 
 .grid {
-  background: #DDD;
+    background: #DDD;
 }
 
+
 /* clear fix */
+
 .grid:after {
-  content: '';
-  display: block;
-  clear: both;
+    content: '';
+    display: block;
+    clear: both;
 }
+
 
 /* ---- .grid-item ---- */
 
-.grid-sizer,
-.grid-item {
-  width: 33.333%;
+.grid-sizer, .grid-item {
+    width: 33.333%;
 }
 
 .grid-item {
-  float: left;
+    float: left;
 }
 
 .grid-item img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 
+/*end of masonry styling*/
+#portraitpge {
+    padding-top: 70px;
+}
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
     }
 }
+
 @media screen and (min-width: 768px) {
-  /* 5 columns for larger screens */
-  .grid-sizer { width: 20%; }
+    /* 5 columns for larger screens */
+    .grid-sizer {
+        width: 20%;
+    }
 }
