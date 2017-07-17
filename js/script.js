@@ -1,22 +1,2 @@
 
-// init masonry
-var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  columnWidth: '.grid-sizer'
-});
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
-});
-
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry();
-});
-$grid.on( 'click', '.grid-item', function() {
-  // change size of item via class
-  $( this ).toggleClass('grid-item--gigante');
-  // trigger layout
-  $grid.masonry();
-});
+$('.grid').masonry({itemSelector:'.grid-item',columnWidth:'.grid-sizer',percentPosition:!0});var $grid=$('.grid').masonry({});$grid.imagesLoaded().progress(function(){$grid.masonry('layout')});var $grid=$('.grid').masonry({itemSelector:'.grid-item',percentPosition:!0,columnWidth:'.grid-sizer'});$grid.on('click','.grid-item',function(){$(this).toggleClass('grid-item--gigante');$grid.masonry()});$grid.imagesLoaded().progress(function(){$grid.masonry()})
